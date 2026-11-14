@@ -1,0 +1,317 @@
+[
+  {
+    "objectID": "research/explorations/sample-energy-exchange.html",
+    "href": "research/explorations/sample-energy-exchange.html",
+    "title": "When coupled oscillators trade energy",
+    "section": "",
+    "text": "← Explorations"
+  },
+  {
+    "objectID": "research/explorations/sample-energy-exchange.html#an-experiment-to-try",
+    "href": "research/explorations/sample-energy-exchange.html#an-experiment-to-try",
+    "title": "When coupled oscillators trade energy",
+    "section": "An experiment to try",
+    "text": "An experiment to try\nCompare simulations with and without the joining spring. Plot both displacements on the same time axis. In the coupled run, look for the slower envelope and compare its time scale with the difference between the two normal-mode frequencies.\nHow to check a numerical solution by halving the step."
+  },
+  {
+    "objectID": "research/publications/sample-inflation-paper.html",
+    "href": "research/publications/sample-inflation-paper.html",
+    "title": "Inflationary trajectories in a two-field model",
+    "section": "",
+    "text": "← Publications"
+  },
+  {
+    "objectID": "research/publications/sample-inflation-paper.html#citation",
+    "href": "research/publications/sample-inflation-paper.html#citation",
+    "title": "Inflationary trajectories in a two-field model",
+    "section": "Citation",
+    "text": "Citation\nAuthor(s), year, article title, journal, and DOI or arXiv link."
+  },
+  {
+    "objectID": "research/publications/sample-inflation-paper.html#research-question",
+    "href": "research/publications/sample-inflation-paper.html#research-question",
+    "title": "Inflationary trajectories in a two-field model",
+    "section": "Research question",
+    "text": "Research question\nHow do different initial field values change the trajectories that reach an inflationary phase in a two-field model?\nRead the related explainer outline."
+  },
+  {
+    "objectID": "notes/puzzles/sample-domino-board.html",
+    "href": "notes/puzzles/sample-domino-board.html",
+    "title": "The two missing squares",
+    "section": "",
+    "text": "← Puzzles\n\nSample math puzzle\n\n\nThe two missing squares\nRemove the top-left and bottom-right squares from an 8 × 8 chessboard. Can you cover the remaining 62 squares with 31 dominoes, each covering two adjacent squares?\n\n\n\n\n\n\nTipHint\n\n\n\n\n\nCount how many squares of each color one domino covers.\n\n\n\n\n\n\n\n\n\nNoteSolution\n\n\n\n\n\nEvery domino covers one black square and one white square. The two removed corners have the same color, so the remaining board has 30 squares of one color and 32 of the other. A tiling would need 31 of each."
+  },
+  {
+    "objectID": "notes/explanations/sample-geodesics.html",
+    "href": "notes/explanations/sample-geodesics.html",
+    "title": "What makes a path a geodesic?",
+    "section": "",
+    "text": "← Worked notes"
+  },
+  {
+    "objectID": "notes/explanations/sample-geodesics.html#compare-two-circles",
+    "href": "notes/explanations/sample-geodesics.html#compare-two-circles",
+    "title": "What makes a path a geodesic?",
+    "section": "Compare two circles",
+    "text": "Compare two circles\nThe equator lies in a plane through the center of the sphere, making it a great circle. A circle of latitude away from the equator lies in a plane offset from the center. Its velocity changes direction within the surface as you keep to that latitude.\nAn arc of a great circle minimizes distance over a short enough segment. Along the same arc, the tangent vector is parallel transported. The parallel transport description extends to geodesics in spacetime."
+  },
+  {
+    "objectID": "notes/explanations/random-walk.html",
+    "href": "notes/explanations/random-walk.html",
+    "title": "Why a random walk spreads like √n",
+    "section": "",
+    "text": "← Notes"
+  },
+  {
+    "objectID": "notes/explanations/random-walk.html#add-the-variances",
+    "href": "notes/explanations/random-walk.html#add-the-variances",
+    "title": "Why a random walk spreads like √n",
+    "section": "Add the variances",
+    "text": "Add the variances\nLet \\(X_i\\) be the \\(i\\)th step. It takes values \\(+1\\) and \\(-1\\) with equal probability, so \\(\\mathbb{E}[X_i]=0\\) and \\(\\operatorname{Var}(X_i)=1\\). After \\(n\\) steps the position is \\(S_n=X_1+\\cdots+X_n\\). Independence gives\n\\[\n\\begin{equation}\n    \\operatorname{Var}(S_n)=\\sum_{i=1}^{n}\\operatorname{Var}(X_i)=n.\n\\end{equation}\n\\]\nThe standard deviation is the square root of the variance. That makes the spread \\(\\sqrt{n}\\) steps."
+  },
+  {
+    "objectID": "notes/explanations/random-walk.html#try-it-with-a-coin",
+    "href": "notes/explanations/random-walk.html#try-it-with-a-coin",
+    "title": "Why a random walk spreads like √n",
+    "section": "Try it with a coin",
+    "text": "Try it with a coin\nAfter 100 tosses the standard deviation is 10 steps. After 400 tosses it is 20 steps. If you simulate many walks, compare their final positions at 100 and 400 steps. The second set should be about twice as spread out."
+  },
+  {
+    "objectID": "notes/explanations/stars-around-sagittarius-a.html",
+    "href": "notes/explanations/stars-around-sagittarius-a.html",
+    "title": "The stars around Sagittarius A*",
+    "section": "",
+    "text": "← Notes"
+  },
+  {
+    "objectID": "notes/explanations/stars-around-sagittarius-a.html#s2-and-the-rotating-ellipse",
+    "href": "notes/explanations/stars-around-sagittarius-a.html#s2-and-the-rotating-ellipse",
+    "title": "The stars around Sagittarius A*",
+    "section": "S2 and the rotating ellipse",
+    "text": "S2 and the rotating ellipse\nS2 takes about 16 years to go around Sagittarius A*. It passed through pericentre, its closest point to the black hole, in May 2018. Changes in its measured position and velocity across that passage helped the GRAVITY Collaboration detect a shift in the direction of pericentre. GRAVITY Collaboration, 2020\nFor an isolated Newtonian point mass, the direction of pericentre is fixed. General relativity predicts an advance of about 12 arcminutes in S2’s orbital plane each revolution. On the sky, the shift depends on the orientation of the orbit to our line of sight. GRAVITY Collaboration, 2020"
+  },
+  {
+    "objectID": "notes/explanations/stars-around-sagittarius-a.html#what-the-measurements-constrain",
+    "href": "notes/explanations/stars-around-sagittarius-a.html#what-the-measurements-constrain",
+    "title": "The stars around Sagittarius A*",
+    "section": "What the measurements constrain",
+    "text": "What the measurements constrain\nAstronomers fit a model to both astrometric positions and radial velocities. Tracking several stars in the same gravitational field improves the estimate of the central mass and helps constrain the amount of matter distributed around it. A four-star fit reported a central mass of approximately \\(4.30 \\times 10^6\\) solar masses. GRAVITY Collaboration, 2022\nExplore the orbital-plane model →"
+  },
+  {
+    "objectID": "topics.html",
+    "href": "topics.html",
+    "title": "Topics",
+    "section": "",
+    "text": "Topics\n\nChoose a subject to find related research, notes, and lessons.\n\n\n\n\n\n\n\nCheck a numerical solution by halving the step\n\n\n\nMeasure the convergence of forward Euler with a simple Python example.\n\n\n\n\n\n\nWorked note\n\n\n\n\n\n\n\nDynamical systems from phase portraits\n\n\n\nThree short lessons on fixed points, stability, and numerical trajectories.\n\n\n\n\n\n\nSample course\n\n\n\n\n\n\n\nFrom Kepler to precession\n\n\n\nA worked introduction to Keplerian orbits and relativistic precession.\n\n\n\n\n\n\nWorked note\n\n\n\n\n\n\n\nInflationary trajectories in a two-field model\n\n\n\nSample entry for a paper on inflation. Shows where the citation and research contribution would go.\n\n\n\n\n\n\nSample publication\n\n\n\n\n\n\n\nPhase locking in coupled nonlinear oscillators\n\n\n\nSample project, from the conditions for phase locking to a numerical test.\n\n\n\n\n\n\nSample project in progress\n\n\n\n\n\n\n\nS2 in the literature\n\n\n\nA reading list on the Galactic Centre and the orbit of S2.\n\n\n\n\n\n\nPaper notes\n\n\n\n\n\n\n\nS2 orbit explorer\n\n\n\nGravity, orbits, and the measurements that test them.\n\n\n\n\n\n\nInteractive exploration\n\n\n\n\n\n\n\nThe stars around Sagittarius A*\n\n\n\nHow S-stars reveal the gravitational field around Sagittarius A*.\n\n\n\n\n\n\nWorked note\n\n\n\n\n\n\n\nThe two missing squares\n\n\n\nCan 31 dominoes cover a chessboard with two opposite corners removed?\n\n\n\n\n\n\nSample math puzzle\n\n\n\n\n\n\n\nWhat makes a path a geodesic?\n\n\n\nUse great circles on a sphere to build intuition for geodesics in differential geometry and general relativity.\n\n\n\n\n\n\nSample worked note\n\n\n\n\n\n\n\nWhen coupled oscillators trade energy\n\n\n\nSample exploration of how weak coupling transfers motion between two oscillators.\n\n\n\n\n\n\nSample exploration\n\n\n\n\n\n\n\nWhy a random walk spreads like √n\n\n\n\nHow independent coin tosses give a square-root law for the spread of a random walk.\n\n\n\n\n\n\nWorked note\n\n\n\n\n\n\n\nWhy do we talk about inflation?\n\n\n\nA video outline on cosmic expansion, the comoving Hubble radius, and the horizon problem.\n\n\n\n\n\n\nSample long explainer\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "physics.html",
+    "href": "physics.html",
+    "title": "S2 orbit explorer",
+    "section": "",
+    "text": "S2 orbit explorer\n  \n    ← All topics\n    S2 orbit explorer\n    Explore gravity through the motion of stars and the observations that test our models.\n  \n\n\n  \n    \n      Follow S2’s orbit\n      Play two revolutions around Sagittarius A* and see how precession shifts each close approach.\n    \n    How the model works ↗\n  \n\n  \n    \n      \n        In the orbital plane\n        \n          Newtonian\n          Precessing\n        \n      \n      \n        \n          A Newtonian orbit follows a closed ellipse. In the precessing model the direction of closest approach advances each revolution.\n        \n        \n          Pericentre\n          Initial closest approach · approximately 120 AU\n        \n      \n      \n        Illustrative model of S2 · distances in AU\n        Precession magnified ×60\n      \n    \n\n    \n      \n        Orbital model\n        \n          Compare\n          Newtonian\n          Precessing\n        \n      \n\n      \n        \n          Time since start\n          6.00 yr\n        \n        \n        0 yr16 yr32 yr\n      \n\n      \n        ▶Play orbit\n        Reset\n      \n\n       Magnify precession ×60\n\n      \n        Distance to Sgr A*—\n        Physical advance / orbit12.2′\n      \n    \n  \n  Enable JavaScript to animate the orbit. The teaching note explains both models.\n\n\n  \n    Read more about S2\n    \n      The stars around Sagittarius A*\n      From Kepler to precession\n      S2 in the literature"
+  },
+  {
+    "objectID": "learn/explainers/sample-inflation-explainer.html",
+    "href": "learn/explainers/sample-inflation-explainer.html",
+    "title": "Why do we talk about inflation?",
+    "section": "",
+    "text": "← Explainers\n\nSample long explainer\n\n\nWhy do we talk about inflation?\nThis sample outlines a single long video. Recording is in preparation.\n\nStart with the observation. Why is the cosmic microwave background nearly the same temperature in distant directions?\nDraw the problem. Trace how far signals can travel in an expanding universe.\nIntroduce inflation. Compare the behavior of the comoving Hubble radius during accelerated expansion and during radiation domination.\nWork through a model. Try a simple scale factor and connect the calculation to the opening question.\n\nSee the related sample research entry."
+  },
+  {
+    "objectID": "learn/courses/sample-dynamical-systems.html",
+    "href": "learn/courses/sample-dynamical-systems.html",
+    "title": "Dynamical systems from phase portraits",
+    "section": "",
+    "text": "← Courses"
+  },
+  {
+    "objectID": "learn/courses/sample-dynamical-systems.html#lesson-sequence",
+    "href": "learn/courses/sample-dynamical-systems.html#lesson-sequence",
+    "title": "Dynamical systems from phase portraits",
+    "section": "Lesson sequence",
+    "text": "Lesson sequence\n\nFixed points. Draw a phase line for \\(\\dot{x}=x(1-x)\\) and identify the equilibria.\nStability. Use the direction of the arrows on either side of each equilibrium to predict nearby trajectories.\nNumerical trajectories. Step an equation forward in time and check how the result changes with the time step. Worked example"
+  },
+  {
+    "objectID": "learn/courses/sample-dynamical-systems.html#apply-it",
+    "href": "learn/courses/sample-dynamical-systems.html#apply-it",
+    "title": "Dynamical systems from phase portraits",
+    "section": "Apply it",
+    "text": "Apply it\nSketch the phase line for the coupled-oscillator project at two different coupling strengths. Try to predict when a fixed phase difference can occur."
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "Publications In progress Explorations\n\n\n\nPapers I authored or coauthored.\n\n\n\n\n\n\n\nSample entry for a paper on inflation. Shows where the citation and research contribution would go.\n\n\n\n\n\n\nSample publication\n\n\n\n\n\nNo matching items\n\n\n\n\nProjects I intend to develop into papers.\n\n\n\n\n\n\n\nSample project, from the conditions for phase locking to a numerical test.\n\n\n\n\n\n\nSample project in progress\n\n\n\n\n\nNo matching items\n\n\n\n\nOpen questions, simulations, and experiments I share on Null.\n\n\n\n\n\n\n\nGravity, orbits, and the measurements that test them.\n\n\n\n\n\n\nInteractive exploration\n\n\n\n\n\n\n\n\n\nSample exploration of how weak coupling transfers motion between two oscillators.\n\n\n\n\n\n\nSample exploration\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "research.html#publications",
+    "href": "research.html#publications",
+    "title": "Research",
+    "section": "",
+    "text": "Papers I authored or coauthored.\n\n\n\n\n\n\n\nSample entry for a paper on inflation. Shows where the citation and research contribution would go.\n\n\n\n\n\n\nSample publication\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "research.html#in-progress",
+    "href": "research.html#in-progress",
+    "title": "Research",
+    "section": "",
+    "text": "Projects I intend to develop into papers.\n\n\n\n\n\n\n\nSample project, from the conditions for phase locking to a numerical test.\n\n\n\n\n\n\nSample project in progress\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "research.html#explorations",
+    "href": "research.html#explorations",
+    "title": "Research",
+    "section": "",
+    "text": "Open questions, simulations, and experiments I share on Null.\n\n\n\n\n\n\n\nGravity, orbits, and the measurements that test them.\n\n\n\n\n\n\nInteractive exploration\n\n\n\n\n\n\n\n\n\nSample exploration of how weak coupling transfers motion between two oscillators.\n\n\n\n\n\n\nSample exploration\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Notes, models, and experiments.",
+    "section": "",
+    "text": "Notes, models, and experiments.\n      Research, worked notes, and lessons on gravity, cosmology, dynamical systems, and mathematics.\n      Browse topics ↗\n    \n  \n\n  \n    Explore Null\n    \n      \n        Topics\n        Browse by subject, from cosmology and gravity to oscillators and math puzzles.\n        ↗\n      \n      \n        Research\n        Publications, projects in progress, and explorations.\n        ↗\n      \n      \n        Notes\n        Paper notes, worked derivations, and puzzles with solutions.\n        ↗\n      \n      \n        Learn\n        Long explainers and courses made of short lessons.\n        ↗"
+  },
+  {
+    "objectID": "notes.html",
+    "href": "notes.html",
+    "title": "Notes",
+    "section": "",
+    "text": "Paper notes Worked notes Puzzles\n\n\n\nPapers by collaborators and other researchers, with my reading notes and follow-up questions.\n\n\n\n\n\n\n\nA reading list on the Galactic Centre and the orbit of S2.\n\n\n\n\n\n\nPaper notes\n\n\n\n\n\nNo matching items\n\n\n\n\nDerivations and numerical checks you can follow step by step.\n\n\n\n\n\n\n\nMeasure the convergence of forward Euler with a simple Python example.\n\n\n\n\n\n\nWorked note\n\n\n\n\n\n\n\n\n\nA worked introduction to Keplerian orbits and relativistic precession.\n\n\n\n\n\n\nWorked note\n\n\n\n\n\n\n\n\n\nHow S-stars reveal the gravitational field around Sagittarius A*.\n\n\n\n\n\n\nWorked note\n\n\n\n\n\n\n\n\n\nUse great circles on a sphere to build intuition for geodesics in differential geometry and general relativity.\n\n\n\n\n\n\nSample worked note\n\n\n\n\n\n\n\n\n\nHow independent coin tosses give a square-root law for the spread of a random walk.\n\n\n\n\n\n\nWorked note\n\n\n\n\n\nNo matching items\n\n\n\n\nProblems to try, with hints and solutions.\n\n\n\n\n\n\n\nCan 31 dominoes cover a chessboard with two opposite corners removed?\n\n\n\n\n\n\nSample math puzzle\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "notes.html#paper-notes",
+    "href": "notes.html#paper-notes",
+    "title": "Notes",
+    "section": "",
+    "text": "Papers by collaborators and other researchers, with my reading notes and follow-up questions.\n\n\n\n\n\n\n\nA reading list on the Galactic Centre and the orbit of S2.\n\n\n\n\n\n\nPaper notes\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "notes.html#worked-notes",
+    "href": "notes.html#worked-notes",
+    "title": "Notes",
+    "section": "",
+    "text": "Derivations and numerical checks you can follow step by step.\n\n\n\n\n\n\n\nMeasure the convergence of forward Euler with a simple Python example.\n\n\n\n\n\n\nWorked note\n\n\n\n\n\n\n\n\n\nA worked introduction to Keplerian orbits and relativistic precession.\n\n\n\n\n\n\nWorked note\n\n\n\n\n\n\n\n\n\nHow S-stars reveal the gravitational field around Sagittarius A*.\n\n\n\n\n\n\nWorked note\n\n\n\n\n\n\n\n\n\nUse great circles on a sphere to build intuition for geodesics in differential geometry and general relativity.\n\n\n\n\n\n\nSample worked note\n\n\n\n\n\n\n\n\n\nHow independent coin tosses give a square-root law for the spread of a random walk.\n\n\n\n\n\n\nWorked note\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "notes.html#puzzles",
+    "href": "notes.html#puzzles",
+    "title": "Notes",
+    "section": "",
+    "text": "Problems to try, with hints and solutions.\n\n\n\n\n\n\n\nCan 31 dominoes cover a chessboard with two opposite corners removed?\n\n\n\n\n\n\nSample math puzzle\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "notes/explanations/kepler-precession.html",
+    "href": "notes/explanations/kepler-precession.html",
+    "title": "From Kepler to precession",
+    "section": "",
+    "text": "← Notes"
+  },
+  {
+    "objectID": "notes/explanations/kepler-precession.html#an-ellipse-with-a-clock",
+    "href": "notes/explanations/kepler-precession.html#an-ellipse-with-a-clock",
+    "title": "From Kepler to precession",
+    "section": "An ellipse with a clock",
+    "text": "An ellipse with a clock\nLet \\(a\\) be the semi-major axis, \\(e\\) the eccentricity, \\(P\\) the period, and \\(t=0\\) the first pericentre. The mean anomaly increases uniformly. Solve Kepler’s equation for the eccentric anomaly \\(E\\).\n\\[\nE - e\\sin E = \\frac{2\\pi t}{P}.\n\\tag{1}\\]\nWith the central mass at the origin, the position in the orbital plane is\n\\[\n\\begin{aligned}\nx &= a(\\cos E-e), \\\\\ny &= a\\sqrt{1-e^2}\\,\\sin E.\n\\end{aligned}\n\\tag{2}\\]\nSetting \\(E=0\\) and \\(E=\\pi\\) in Equation 2 gives the closest and furthest distances, \\(a(1-e)\\) and \\(a(1+e)\\). Move the time slider through equal increments near the start and near the middle of a revolution to see where the star travels further."
+  },
+  {
+    "objectID": "notes/explanations/kepler-precession.html#the-relativistic-correction",
+    "href": "notes/explanations/kepler-precession.html#the-relativistic-correction",
+    "title": "From Kepler to precession",
+    "section": "The relativistic correction",
+    "text": "The relativistic correction\nFor a test particle around a non-rotating mass \\(M\\), the leading-order advance of pericentre per revolution is\n\\[\n\\Delta\\omega \\simeq \\frac{6\\pi GM}{a(1-e^2)c^2}.\n\\tag{3}\\]\nIn the explorer, both models use Equation 1 for timing. The precessing trace rotates the Kepler ellipse progressively with orbital angle and reaches \\(\\Delta\\omega\\) by the end of each revolution. The model uses rounded values \\(e=0.884\\), \\(P=16.046\\) years and \\(M=4.30\\times10^6 M_\\odot\\), giving \\(a \\approx 1{,}035\\) AU. Its orientation is shown in the orbital plane. The magnification control scales the displayed rotation, while the readout shows the physical advance. GRAVITY Collaboration, 2020"
+  },
+  {
+    "objectID": "notes/explanations/kepler-precession.html#try-it",
+    "href": "notes/explanations/kepler-precession.html#try-it",
+    "title": "From Kepler to precession",
+    "section": "Try it",
+    "text": "Try it\nUse Equation 3 to estimate the physical advance with the parameters above. Take \\(GM_\\odot/c^2 \\approx 1.477\\) km and \\(1\\,\\mathrm{AU}\\approx 1.496\\times 10^8\\) km. How much would the angle on the screen change after two revolutions with magnification enabled?\n\n\n\n\n\n\nNoteShow the calculation\n\n\n\n\n\nThe rounded parameters give \\(\\Delta\\omega \\approx 3.5\\times 10^{-3}\\) radians, or approximately \\(12.2\\) arcminutes. After two revolutions the physical advance is about \\(24.3\\) arcminutes. Multiplying by 60 makes the angle on the screen about \\(24.3^\\circ\\).\n\n\n\nOpen the orbit explorer →"
+  },
+  {
+    "objectID": "notes/explanations/euler-convergence.html",
+    "href": "notes/explanations/euler-convergence.html",
+    "title": "Check a numerical solution by halving the step",
+    "section": "",
+    "text": "← Notes"
+  },
+  {
+    "objectID": "notes/explanations/euler-convergence.html#a-problem-with-an-exact-answer",
+    "href": "notes/explanations/euler-convergence.html#a-problem-with-an-exact-answer",
+    "title": "Check a numerical solution by halving the step",
+    "section": "A problem with an exact answer",
+    "text": "A problem with an exact answer\nFor \\(y'=-y\\) with \\(y(0)=1\\), the exact solution is \\(y(t)=e^{-t}\\). Forward Euler takes steps of size \\(h\\) using \\(y_{k+1}=(1-h)y_k\\). To compare runs, keep the final time at \\(t=1\\) and change only the number of steps.\nfrom math import exp\n\nexact = exp(-1)\nfor steps in (10, 20, 40, 80):\n    step_size = 1 / steps\n    value = 1.0\n    for _ in range(steps):\n        value -= step_size * value\n    print(f\"{steps:3d} steps   error {abs(value - exact):.6f}\")"
+  },
+  {
+    "objectID": "notes/explanations/euler-convergence.html#read-the-pattern",
+    "href": "notes/explanations/euler-convergence.html#read-the-pattern",
+    "title": "Check a numerical solution by halving the step",
+    "section": "Read the pattern",
+    "text": "Read the pattern\nThe error goes from about \\(0.0192\\) at 10 steps to \\(0.0094\\) at 20 steps. It roughly halves with \\(h\\), as expected for a first-order method. A useful convergence check keeps the initial condition and ending time fixed so that you can attribute the change in error to the step size."
+  },
+  {
+    "objectID": "notes/papers/s2-literature.html",
+    "href": "notes/papers/s2-literature.html",
+    "title": "S2 in the literature",
+    "section": "",
+    "text": "← Notes"
+  },
+  {
+    "objectID": "notes/papers/s2-literature.html#gravitational-redshift-during-closest-approach",
+    "href": "notes/papers/s2-literature.html#gravitational-redshift-during-closest-approach",
+    "title": "S2 in the literature",
+    "section": "Gravitational redshift during closest approach",
+    "text": "Gravitational redshift during closest approach\nThe spectra of S2 near pericentre reveal the combined effect of gravitational redshift and the transverse Doppler shift.\nGRAVITY Collaboration · A&A 615, L15 ↗"
+  },
+  {
+    "objectID": "notes/papers/s2-literature.html#detection-of-schwarzschild-precession",
+    "href": "notes/papers/s2-literature.html#detection-of-schwarzschild-precession",
+    "title": "S2 in the literature",
+    "section": "Detection of Schwarzschild precession",
+    "text": "Detection of Schwarzschild precession\nAstrometry and radial velocities establish a prograde advance of S2’s orbit consistent with general relativity.\nGRAVITY Collaboration · A&A 636, L5 ↗\nCheck the scale. The paper reports an advance of about 12 arcminutes per orbit in S2’s orbital plane. Use the worked precession calculation to estimate the angle from the orbit parameters. How does that angle compare with the rotation drawn by the explorer when magnification is on?"
+  },
+  {
+    "objectID": "notes/papers/s2-literature.html#the-mass-distribution-at-the-galactic-centre",
+    "href": "notes/papers/s2-literature.html#the-mass-distribution-at-the-galactic-centre",
+    "title": "S2 in the literature",
+    "section": "The mass distribution at the Galactic Centre",
+    "text": "The mass distribution at the Galactic Centre\nOrbits of four stars refine the black hole mass and constrain extended matter inside S2’s orbit.\nGRAVITY Collaboration · A&A 657, L12 ↗"
+  },
+  {
+    "objectID": "learn.html",
+    "href": "learn.html",
+    "title": "Learn",
+    "section": "",
+    "text": "The Null YouTube channel is in preparation. Browse sample lesson plans and companion notes.\n\n\nExplainers Courses\n\n\n\nLong videos that develop one idea from the question to a worked example.\n\n\n\n\n\n\n\nA video outline on cosmic expansion, the comoving Hubble radius, and the horizon problem.\n\n\n\n\n\n\nSample long explainer\n\n\n\n\n\nNo matching items\n\n\n\n\nShort lessons in sequence, with notes and exercises to work through between videos.\n\n\n\n\n\n\n\nThree short lessons on fixed points, stability, and numerical trajectories.\n\n\n\n\n\n\nSample course\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "learn.html#explainers",
+    "href": "learn.html#explainers",
+    "title": "Learn",
+    "section": "",
+    "text": "Long videos that develop one idea from the question to a worked example.\n\n\n\n\n\n\n\nA video outline on cosmic expansion, the comoving Hubble radius, and the horizon problem.\n\n\n\n\n\n\nSample long explainer\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "learn.html#courses",
+    "href": "learn.html#courses",
+    "title": "Learn",
+    "section": "",
+    "text": "Short lessons in sequence, with notes and exercises to work through between videos.\n\n\n\n\n\n\n\nThree short lessons on fixed points, stability, and numerical trajectories.\n\n\n\n\n\n\nSample course\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "research/in-progress/sample-coupled-oscillators.html",
+    "href": "research/in-progress/sample-coupled-oscillators.html",
+    "title": "Phase locking in coupled nonlinear oscillators",
+    "section": "",
+    "text": "← In progress"
+  },
+  {
+    "objectID": "research/in-progress/sample-coupled-oscillators.html#next-steps",
+    "href": "research/in-progress/sample-coupled-oscillators.html#next-steps",
+    "title": "Phase locking in coupled nonlinear oscillators",
+    "section": "Next steps",
+    "text": "Next steps\nFind the fixed points of Equation 1 and determine their stability. Sweep the coupling \\(K\\) in a numerical model, recording when the phase difference approaches a constant and when it keeps slipping.\nReview fixed points and stability in the course outline."
+  }
+]

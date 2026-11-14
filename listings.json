@@ -1,0 +1,48 @@
+[
+  {
+    "listing": "/topics.html",
+    "items": [
+      "/notes/explanations/euler-convergence.html",
+      "/learn/courses/sample-dynamical-systems.html",
+      "/notes/explanations/kepler-precession.html",
+      "/research/publications/sample-inflation-paper.html",
+      "/research/in-progress/sample-coupled-oscillators.html",
+      "/notes/papers/s2-literature.html",
+      "/physics.html",
+      "/notes/explanations/stars-around-sagittarius-a.html",
+      "/notes/puzzles/sample-domino-board.html",
+      "/notes/explanations/sample-geodesics.html",
+      "/research/explorations/sample-energy-exchange.html",
+      "/notes/explanations/random-walk.html",
+      "/learn/explainers/sample-inflation-explainer.html"
+    ]
+  },
+  {
+    "listing": "/research.html",
+    "items": [
+      "/research/publications/sample-inflation-paper.html",
+      "/research/in-progress/sample-coupled-oscillators.html",
+      "/physics.html",
+      "/research/explorations/sample-energy-exchange.html"
+    ]
+  },
+  {
+    "listing": "/notes.html",
+    "items": [
+      "/notes/papers/s2-literature.html",
+      "/notes/explanations/euler-convergence.html",
+      "/notes/explanations/kepler-precession.html",
+      "/notes/explanations/stars-around-sagittarius-a.html",
+      "/notes/explanations/sample-geodesics.html",
+      "/notes/explanations/random-walk.html",
+      "/notes/puzzles/sample-domino-board.html"
+    ]
+  },
+  {
+    "listing": "/learn.html",
+    "items": [
+      "/learn/explainers/sample-inflation-explainer.html",
+      "/learn/courses/sample-dynamical-systems.html"
+    ]
+  }
+]
