@@ -109,10 +109,8 @@ a:focus-visible, button:focus-visible, input:focus-visible {
 #quarto-header .navbar-youtube:hover { background: var(--null-hover); }
 
 #quarto-header .navbar-brand-logo {
-  position: relative;
-  display: block;
-  overflow: hidden;
-  isolation: isolate;
+  display: grid;
+  place-items: center;
   background: var(--null-logo-bg);
   width: 104px;
   height: 39px;
@@ -121,13 +119,12 @@ a:focus-visible, button:focus-visible, input:focus-visible {
 }
 
 #quarto-header .navbar-logo {
-  position: absolute;
-  top: -20px;
-  left: -10px;
-  width: 145px;
+  position: static;
+  width: 100%;
   height: auto;
+  object-fit: contain;
   max-width: none;
-  max-height: none;
+  max-height: 39px;
   margin: 0;
 }
 
@@ -240,12 +237,12 @@ a:focus-visible, button:focus-visible, input:focus-visible {
 .home-brand img {
   position: absolute;
   top: 50%;
-  left: 0;
+  left: 50%;
   display: block;
-  width: 115%;
+  width: 80%;
   max-width: none;
   height: auto;
-  transform: translateY(-55%);
+  transform: translate(-50%, -50%);
 }
 
 .null-button {
@@ -633,7 +630,6 @@ footer.footer .nav-footer {
   .home-hero { grid-template-columns: minmax(0, 1fr); gap: 1.7rem; padding-block: 2.55rem; }
   .home-intro h1 { font-size: clamp(3.5rem, 11vw, 5.3rem); }
   .home-brand { aspect-ratio: 2.4; }
-  .home-brand img { width: min(115%, 510px); left: 50%; transform: translate(-44%, -55%); }
   .topic-row { grid-template-columns: minmax(0, 1fr) 1.5rem; gap: .13rem .55rem; }
   .topic-summary { grid-column: 1; grid-row: 2; font-size: .9rem; }
   .row-arrow { grid-column: 2; grid-row: 1; }
